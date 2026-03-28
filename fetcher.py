@@ -7,4 +7,4 @@ def fetch(username):
         return response.json()
     else:
         print(f"Error fetching data for user '{username}'. Status code: {response.status_code}")
-        return []
+        return None

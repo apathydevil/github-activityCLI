@@ -1,7 +1,9 @@
 
 def display(data):
     try:
-        if data is not None and len(data) > 0:
+        if data is None:
+            return 
+        elif len(data) > 0:
             for event in data:
                 timestamp = event['created_at'].replace('T', ' ').replace('Z', '')
                 if event['type'] == 'PushEvent':
