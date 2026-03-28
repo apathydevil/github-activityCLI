@@ -1,7 +1,10 @@
+import display
 import fetcher
 
 def main():
-    print(fetcher.fetch("apathydevil"))
+    username = "apathydevil"
+    data = fetcher.fetch(username)
+    display.display(data)
 
 if __name__ == "__main__":
     main()
