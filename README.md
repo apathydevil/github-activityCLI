@@ -1,6 +1,6 @@
 # github-activityCLI
 
-Created for practicing Python url requests, json parsing, and CLI development. Display recent GitHub activity for a specified user.
+Created for practicing Python url requests, json parsing, and CLI development. Display recent GitHub activity for a specified user using the GitHub API.
 
 ## Usage
 
