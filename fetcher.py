@@ -6,4 +6,5 @@ def fetch(username):
     if response.status_code == 200:
         return response.json()
     else:
-        raise Exception(f"Failed to fetch data for user {username}: {response.status_code}")
+        print(f"Error fetching data for user '{username}'. Status code: {response.status_code}")
+        return []
